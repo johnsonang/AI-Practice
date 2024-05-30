@@ -1,0 +1,19 @@
+/* public/css/styles.css */
+body {
+    background: linear-gradient(to bottom, red, black);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card-body {
+    color: white;
+}
