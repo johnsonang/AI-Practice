@@ -1,12 +1,20 @@
 /* public/css/styles.css */
 body {
     background: linear-gradient(to bottom, red, black);
-    height: 100vh;
+    min-height: 100vh; /* Changed from height to min-height */
     margin: 0;
+    /* Removed display:flex, justify-content: center, align-items: center */
+    color: white; /* Default text color for the page */
+    font-family: sans-serif; /* Added a default font */
+}
+
+/* Styles for elements that might be on pages other than chat */
+.centered-content-page {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    min-height: 100vh;
 }
 
 .card {
